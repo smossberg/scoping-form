@@ -6,4 +6,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Djaaango!")
+    return HttpResponse('<iframe width="560" height="315" src="https://www.youtube.com/embed/IAooXLAPoBQ?list=RDIAooXLAPoBQ" frameborder="0" allowfullscreen></iframe>')
